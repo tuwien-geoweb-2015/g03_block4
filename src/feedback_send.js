@@ -42,3 +42,4 @@ module.exports = function(form, feature, url, config) {
     xhr.send(new XMLSerializer().serializeToString(data));
   });
 };
+
